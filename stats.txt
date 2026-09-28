@@ -1,42 +1,42 @@
-unique_links	1352
+unique_links	1394
 
 by_category
 Hosted: TypeSafe Jev	3
-Open-source / local alternatives	109
-Use cases	374
-Docs & essays	67
-Evals & papers	90
-SDKs & tooling	649
+Open-source / local alternatives	125
+Use cases	382
+Docs & essays	74
+Evals & papers	100
+SDKs & tooling	650
 Awesome lists & indexes	55
 Community	5
 
 by_subsection
 Hosted: TypeSafe Jev / (none)	3
-Open-source / local alternatives / Landmark projects	12
-Open-source / local alternatives / Models & weights	53
-Open-source / local alternatives / Runtimes, ports & servers	13
+Open-source / local alternatives / Landmark projects	16
+Open-source / local alternatives / Models & weights	62
+Open-source / local alternatives / Runtimes, ports & servers	15
 Open-source / local alternatives / Adapters & logit readers	19
-Open-source / local alternatives / Related classifiers & structured output	12
+Open-source / local alternatives / Related classifiers & structured output	13
 Use cases / Routing & triage	35
 Use cases / Classification	18
 Use cases / Extraction & structured data	16
 Use cases / Guardrails, safety & review	13
-Use cases / Agents, tools & harnesses	16
-Use cases / Search, RAG & rerank	11
-Use cases / Browser, computer use & OS	71
-Use cases / Games, robotics & simulation	54
+Use cases / Agents, tools & harnesses	18
+Use cases / Search, RAG & rerank	12
+Use cases / Browser, computer use & OS	72
+Use cases / Games, robotics & simulation	55
 Use cases / Voice, mail & productivity	12
-Use cases / Markets & operations	12
+Use cases / Markets & operations	13
 Use cases / Creative tools	6
-Use cases / Playgrounds & live demos	29
-Use cases / Other applications	81
-Docs & essays / (none)	67
+Use cases / Playgrounds & live demos	30
+Use cases / Other applications	82
+Docs & essays / (none)	74
 Evals & papers / Harnesses & live benches	6
-Evals & papers / Typed-decision benchmarks	61
-Evals & papers / Papers	23
+Evals & papers / Typed-decision benchmarks	64
+Evals & papers / Papers	30
 SDKs & tooling / TypeSafe SDKs & gateways	11
 SDKs & tooling / Community SDKs & clients	98
-SDKs & tooling / MCP, skills & agent plugins	186
+SDKs & tooling / MCP, skills & agent plugins	187
 SDKs & tooling / Integrations & data pipelines	47
 SDKs & tooling / Other tooling	307
 Awesome lists & indexes / (none)	55
@@ -52,11 +52,11 @@ BeatAPI/awesome-jev	177
 seed-logicrw-refresh	174
 kydlikebtc/awesome-jev	135
 OmniJev/awesome-jev-gallery	132
+seed-x-scan	65
 seed-tier	62
 systemonemodels.org/examples/alternatives	34
 rupeshpoojary9/awesome-open-system-one	26
 seed-official	25
-seed-x-scan	23
 seed-essays	18
 seed-lists	14
 

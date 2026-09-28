@@ -192,6 +192,46 @@
     ]
   },
   {
+    "url": "https://github.com/feder-cr/jev",
+    "title": "jevos",
+    "description": "Open yes/no System One alternative on laptop CPU (50–220 ms); /v1/systemone; GGUF release.",
+    "category": "Open-source / local alternatives",
+    "subsection": "Landmark projects",
+    "sources": [
+      "seed-x-scan"
+    ]
+  },
+  {
+    "url": "https://github.com/malevrigns/agent-jev",
+    "title": "AgentJev",
+    "description": "0.6B System One decision model for agents: state + typed questions → calibrated probs in ~50 ms; Apache-2.0.",
+    "category": "Open-source / local alternatives",
+    "subsection": "Landmark projects",
+    "sources": [
+      "seed-x-scan"
+    ]
+  },
+  {
+    "url": "https://github.com/lawrence3699/jev-style",
+    "title": "jev-style",
+    "description": "Local systemone-compatible server + agent skills/MCP/Claude guard; Qwen3.5 0.8B/2B decision models (JevBench numbers).",
+    "category": "Open-source / local alternatives",
+    "subsection": "Landmark projects",
+    "sources": [
+      "seed-x-scan"
+    ]
+  },
+  {
+    "url": "https://github.com/OmniJev/OneJev",
+    "title": "OneJev",
+    "description": "Multimodal System One model (screens/photos/video/text) with Choice/Score/Noul; four sizes; Apache-2.0.",
+    "category": "Open-source / local alternatives",
+    "subsection": "Landmark projects",
+    "sources": [
+      "seed-x-scan"
+    ]
+  },
+  {
     "url": "https://github.com/TianyuCodings/NanoJev",
     "title": "NanoJev",
     "description": "Studies independent Qwen-based typed decision heads, local serving, and game controllers with recorded comparisons. Project guide.",
@@ -467,6 +507,16 @@
     ]
   },
   {
+    "url": "https://github.com/FeiLiuEM/open-medical-jev",
+    "title": "Open Medical Jev",
+    "description": "Frozen open-model medical judgment (Qwen3.5 27B/35B-A3B) with conformal router; near Jev on exams.",
+    "category": "Open-source / local alternatives",
+    "subsection": "Models & weights",
+    "sources": [
+      "seed-x-scan"
+    ]
+  },
+  {
     "url": "https://github.com/rorshopping/jev-on-a-laptop",
     "title": "Jev on a laptop",
     "description": ", Unofficial study of Jev-style parallel typed decisions on stock 1.5B to 8B models on Apple Silicon, with benchmarks.…",
@@ -489,6 +539,16 @@
     ]
   },
   {
+    "url": "https://github.com/akivet/Mica-v0.1-4B",
+    "title": "Mica v0.1 4B",
+    "description": "Qwen3.5-4B LoRA System One server (EN/KO); Choice/Score/Noul via /v1/systemone; Apache-2.0.",
+    "category": "Open-source / local alternatives",
+    "subsection": "Models & weights",
+    "sources": [
+      "seed-x-scan"
+    ]
+  },
+  {
     "url": "https://github.com/bladedevoff/stuntd",
     "title": "stuntd",
     "description": "Local proxy that learns your app's typed LLM decisions and answers them with a Laya head. Jev and OpenAI compatible.",
@@ -506,6 +566,16 @@
     "subsection": "Models & weights",
     "sources": [
       "OmniJev/awesome-jev-gallery"
+    ]
+  },
+  {
+    "url": "https://github.com/xyzzzh/GroundingJev",
+    "title": "GroundingJev",
+    "description": "Jev-inspired non-autoregressive visual grounding on Qwen3.5-0.8B with continuous box regression.",
+    "category": "Open-source / local alternatives",
+    "subsection": "Models & weights",
+    "sources": [
+      "seed-x-scan"
     ]
   },
   {
@@ -550,6 +620,26 @@
     ]
   },
   {
+    "url": "https://github.com/org2AI/wald-4b",
+    "title": "Wald-4B",
+    "description": "Calibrated 4B decision model (Decision Index #6 / best 4B claimed); sequential stop-when-sure effort.",
+    "category": "Open-source / local alternatives",
+    "subsection": "Models & weights",
+    "sources": [
+      "seed-x-scan"
+    ]
+  },
+  {
+    "url": "https://github.com/getainode/jebadiah",
+    "title": "Jebadiah",
+    "description": "Open System One decision model: trainer, data builders, evals, and run records; /v1/systemone via AINode.",
+    "category": "Open-source / local alternatives",
+    "subsection": "Models & weights",
+    "sources": [
+      "seed-x-scan"
+    ]
+  },
+  {
     "url": "https://github.com/ReallyArtificial/stuntdouble",
     "title": "stuntdouble",
     "description": "Drop-in /v1/systemone proxy that shadows Jev with local decision models (Kev, Laya) and reports whether you can swap",
@@ -590,6 +680,16 @@
     ]
   },
   {
+    "url": "https://huggingface.co/aimeigaoshou/agent-jev",
+    "title": "AgentJev-0.6B (weights)",
+    "description": "HF weights for AgentJev-0.6B (Qwen3 backbone + permutation-equivariant candidate head).",
+    "category": "Open-source / local alternatives",
+    "subsection": "Models & weights",
+    "sources": [
+      "seed-x-scan"
+    ]
+  },
+  {
     "url": "https://codiv.ai",
     "title": "Codiv",
     "description": "Hosted inference for open System One models; serves OpenJev through a Jev-compatible API.",
@@ -603,6 +703,16 @@
     "url": "https://api.codiv.ai",
     "title": "Codiv API",
     "description": "Jev-compatible base URL for Codiv-hosted OpenJev (point TYPESAFE_BASE_URL here).",
+    "category": "Open-source / local alternatives",
+    "subsection": "Models & weights",
+    "sources": [
+      "seed-x-scan"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/frontier-infra/jebadiah-4b-v1",
+    "title": "jebadiah-4b-v1",
+    "description": "Open Jebadiah 4B decision weights (Apache-2.0) from frontier-infra.",
     "category": "Open-source / local alternatives",
     "subsection": "Models & weights",
     "sources": [
@@ -641,6 +751,16 @@
     ]
   },
   {
+    "url": "https://huggingface.co/sky7350/Mica-v0.1-4B",
+    "title": "Mica-v0.1-4B (weights)",
+    "description": "Merged BF16 + GGUF checkpoints for Mica typed-decision model.",
+    "category": "Open-source / local alternatives",
+    "subsection": "Models & weights",
+    "sources": [
+      "seed-x-scan"
+    ]
+  },
+  {
     "url": "https://huggingface.co/C-Tianyu/NanoJev",
     "title": "NanoJev",
     "description": "A 0.6B open replica of the JEV interface with parallel decisions and a training pipeline.",
@@ -658,6 +778,16 @@
     "subsection": "Models & weights",
     "sources": [
       "rupeshpoojary9/awesome-open-system-one"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/OmniJev/OneJev-4B",
+    "title": "OneJev-4B",
+    "description": "HF checkpoint for OneJev-4B multimodal System One decision model.",
+    "category": "Open-source / local alternatives",
+    "subsection": "Models & weights",
+    "sources": [
+      "seed-x-scan"
     ]
   },
   {
@@ -885,6 +1015,26 @@
     "sources": [
       "seed-tier",
       "systemonemodels.org/examples/alternatives"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/chaoliangUNSW/Jev-Style-0.8B-Decision-v3",
+    "title": "Jev-Style-0.8B-Decision-v3",
+    "description": "Open 0.8B decision weights (default jev-style release); 64.1% JevBench public; MLX/GGUF.",
+    "category": "Open-source / local alternatives",
+    "subsection": "Runtimes, ports & servers",
+    "sources": [
+      "seed-x-scan"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/chaoliangUNSW/Jev-Style-2B-Decision-v3",
+    "title": "Jev-Style-2B-Decision-v3",
+    "description": "Open 2B decision weights: 73.6% on JevBench v1.4.1 public (231); torch/MLX/GGUF builds.",
+    "category": "Open-source / local alternatives",
+    "subsection": "Runtimes, ports & servers",
+    "sources": [
+      "seed-x-scan"
     ]
   },
   {
@@ -1237,6 +1387,16 @@
     "url": "https://github.com/kotoba-lang/typed-decisions",
     "title": "typed-decisions",
     "description": "Jev-shaped Choice/Score/Noul model on ModernBERT, DeBERTa, and LLaDA-MoE with measured latency, accuracy, and calibration.",
+    "category": "Open-source / local alternatives",
+    "subsection": "Related classifiers & structured output",
+    "sources": [
+      "seed-x-scan"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/fastino/GLiNER2.5-Decide-1B",
+    "title": "GLiNER2.5-Decide-1B",
+    "description": "1B specialist classifier for operational decisions (intent/routing/moderation) in one pass; Apache-2.0.",
     "category": "Open-source / local alternatives",
     "subsection": "Related classifiers & structured output",
     "sources": [
@@ -2095,6 +2255,16 @@
     ]
   },
   {
+    "url": "https://github.com/dzhng/jevgrep",
+    "title": "jevgrep",
+    "description": "CLI for coding agents: find code by asking what it does, using Jev for file/context discovery (774★).",
+    "category": "Use cases",
+    "subsection": "Agents, tools & harnesses",
+    "sources": [
+      "seed-x-scan"
+    ]
+  },
+  {
     "url": "https://github.com/irfndi/prism-liquidity-agent",
     "title": "Prism",
     "description": "69 stars — An autonomous liquidity agent that uses JEV inside its rebalancing decision service. [Source](https://github.com/irfndi/prism-liquidity-agent/blob/22c67bdbe30bab608226832256a5013ad826b707/engine/jev-service.ts)",
@@ -2105,6 +2275,16 @@
       "MrJev/awesome-jev",
       "kydlikebtc/awesome-jev",
       "logicrw/awesome-jev-projects"
+    ]
+  },
+  {
+    "url": "https://github.com/UditAkhourii/quicksilver",
+    "title": "quicksilver",
+    "description": "Claude Code skill: hand bulk judgments to Jev (reported 86% fewer Claude tokens on a 12-task bench).",
+    "category": "Use cases",
+    "subsection": "Agents, tools & harnesses",
+    "sources": [
+      "seed-x-scan"
     ]
   },
   {
@@ -2257,6 +2437,16 @@
     "sources": [
       "AppitStudio/awesome-jev",
       "kydlikebtc/awesome-jev"
+    ]
+  },
+  {
+    "url": "https://github.com/kieranklaassen/truffler",
+    "title": "truffler",
+    "description": "Jev-powered Rails search: index-time labels, query understanding, streamed reranking.",
+    "category": "Use cases",
+    "subsection": "Search, RAG & rerank",
+    "sources": [
+      "seed-x-scan"
     ]
   },
   {
@@ -3098,6 +3288,16 @@
     ]
   },
   {
+    "url": "https://huggingface.co/spaces/chaoliangUNSW/jev-style-2b",
+    "title": "jev-style 2B Space",
+    "description": "Browser demo of Jev-Style-2B-Decision-v3 typed decisions.",
+    "category": "Use cases",
+    "subsection": "Browser, computer use & OS",
+    "sources": [
+      "seed-x-scan"
+    ]
+  },
+  {
     "url": "https://mrjev.com/projects/jkudish-jev-browser",
     "title": "Read",
     "description": "Read — System One / Jev related resource.",
@@ -3147,6 +3347,16 @@
     "subsection": "Games, robotics & simulation",
     "sources": [
       "OmniJev/awesome-jev-gallery"
+    ]
+  },
+  {
+    "url": "https://github.com/christianmat/jev-pokemon",
+    "title": "jev-pokemon",
+    "description": "Jev plays Pokémon Red end-to-end (reported clear in 37h 40m).",
+    "category": "Use cases",
+    "subsection": "Games, robotics & simulation",
+    "sources": [
+      "seed-x-scan"
     ]
   },
   {
@@ -3820,6 +4030,16 @@
     ]
   },
   {
+    "url": "https://github.com/imikerussell/beebots",
+    "title": "beebots",
+    "description": "Three AI trading bees on OKX; every decision by Jev (paper trading by default).",
+    "category": "Use cases",
+    "subsection": "Markets & operations",
+    "sources": [
+      "seed-x-scan"
+    ]
+  },
+  {
     "url": "https://github.com/aowang-ai/jev-trade",
     "title": "Jev Trade",
     "description": "Live Hyperliquid desk across five isolated wallets: each tick packages book, tape, and position as state, Jev answers Choice questions for long/short, open/close/hold, and leverage, and application code places or pulls the quote (hold…",
@@ -4153,6 +4373,16 @@
     ]
   },
   {
+    "url": "https://huggingface.co/spaces/xyzzzh/GroundingJev",
+    "title": "GroundingJev Space",
+    "description": "HF Space demo for GroundingJev visual grounding.",
+    "category": "Use cases",
+    "subsection": "Playgrounds & live demos",
+    "sources": [
+      "seed-x-scan"
+    ]
+  },
+  {
     "url": "https://docs.typesafe.ai/demos",
     "title": "Interactive demos",
     "description": "Official hands-on examples, including the smart-home assistant.",
@@ -4303,6 +4533,16 @@
     "sources": [
       "kydlikebtc/awesome-jev",
       "logicrw/awesome-jev-projects"
+    ]
+  },
+  {
+    "url": "https://github.com/YUTA-fywoo/jev-gui-delegate",
+    "title": "jev-gui-delegate",
+    "description": "Windows/Chrome GUI delegation for Codex with Jev semantic decisions, recovery, and verification.",
+    "category": "Use cases",
+    "subsection": "Other applications",
+    "sources": [
+      "seed-x-scan"
     ]
   },
   {
@@ -5373,6 +5613,16 @@
     ]
   },
   {
+    "url": "https://jebadiah.ai",
+    "title": "Jebadiah.ai",
+    "description": "Project site for the open Jebadiah System One decision model.",
+    "category": "Docs & essays",
+    "subsection": "",
+    "sources": [
+      "seed-x-scan"
+    ]
+  },
+  {
     "url": "https://en.wikipedia.org/wiki/Jev_(AI_model)",
     "title": "Jev (AI model) on Wikipedia",
     "description": "Most useful as an index: its reference list is a fast route to the coverage worth reading.",
@@ -5426,6 +5676,16 @@
     ]
   },
   {
+    "url": "https://arxiviq.substack.com/p/jev-and-the-emergence-of-system-one",
+    "title": "Jev and the Emergence of System One",
+    "description": "Long-form survey of System One architecture, open reproductions, and ecosystem integration.",
+    "category": "Docs & essays",
+    "subsection": "",
+    "sources": [
+      "seed-x-scan"
+    ]
+  },
+  {
     "url": "https://beam.ai/agentic-insights/jev-typesafe-ai-agents",
     "title": "Jev by TypeSafe: A Decision Model for AI Agents",
     "description": "An agent-builder's framing of where a decision model sits in an agent stack.",
@@ -5474,6 +5734,16 @@
     "sources": [
       "OmniJev/awesome-jev-gallery",
       "seed-essays"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/blog/sora-2/jev-ai-vs-djev-vs-laya-vs-openjev-vs-semif-which-d",
+    "title": "Jev vs djev vs Laya vs OpenJev vs SemIf",
+    "description": "HF blog comparing hosted and open decision systems on rank, calibration, and operating models.",
+    "category": "Docs & essays",
+    "subsection": "",
+    "sources": [
+      "seed-x-scan"
     ]
   },
   {
@@ -5539,6 +5809,16 @@
     ]
   },
   {
+    "url": "https://jevstyle.com",
+    "title": "jevstyle.com",
+    "description": "Project site for jev-style local decision models and agent tooling.",
+    "category": "Docs & essays",
+    "subsection": "",
+    "sources": [
+      "seed-x-scan"
+    ]
+  },
+  {
     "url": "https://archerhume.com/posts/jevs-architecture-unmasked",
     "title": "Jev’s Architecture Unmasked",
     "description": "Archer Hume: architecture probe from ~10k API calls — shared state, isolated questions, parallel readouts.",
@@ -5598,6 +5878,16 @@
     "sources": [
       "rupeshpoojary9/awesome-open-system-one",
       "seed-essays"
+    ]
+  },
+  {
+    "url": "https://omnijev.github.io/OneJev",
+    "title": "OneJev (site)",
+    "description": "Project site for OneJev multimodal typed-decision models.",
+    "category": "Docs & essays",
+    "subsection": "",
+    "sources": [
+      "seed-x-scan"
     ]
   },
   {
@@ -5693,6 +5983,16 @@
     "subsection": "",
     "sources": [
       "seed-essays"
+    ]
+  },
+  {
+    "url": "https://laya-ai.com/system-one-models/tev1",
+    "title": "Tev1-4B-experimental guide",
+    "description": "Independent Tev1 walkthrough: chat-completions interface, pricing, and how it differs from /v1/systemone.",
+    "category": "Docs & essays",
+    "subsection": "",
+    "sources": [
+      "seed-x-scan"
     ]
   },
   {
@@ -5811,6 +6111,16 @@
     "subsection": "",
     "sources": [
       "kydlikebtc/awesome-jev"
+    ]
+  },
+  {
+    "url": "https://aimlapi.com/blog/what-is-jev",
+    "title": "What Is Jev? (AIMLAPI)",
+    "description": "Independent overview comparing hosted Jev with open alternatives (Laya, Kev, Tev1) and pricing.",
+    "category": "Docs & essays",
+    "subsection": "",
+    "sources": [
+      "seed-x-scan"
     ]
   },
   {
@@ -6429,6 +6739,26 @@
     ]
   },
   {
+    "url": "https://decisioneval.dev",
+    "title": "DecisionEval",
+    "description": "Independent decision-model directory + frozen 2,000-decision benchmark with accuracy, Brier, ECE and project catalog.",
+    "category": "Evals & papers",
+    "subsection": "Typed-decision benchmarks",
+    "sources": [
+      "seed-x-scan"
+    ]
+  },
+  {
+    "url": "https://decisioneval.dev/models/typesafe-jev",
+    "title": "DecisionEval: TypeSafe Jev",
+    "description": "Independently measured Jev 1.13.0 card on LocalLLaMA/typed-decisions (acc 0.740, ECE 0.045) with CIs.",
+    "category": "Evals & papers",
+    "subsection": "Typed-decision benchmarks",
+    "sources": [
+      "seed-x-scan"
+    ]
+  },
+  {
     "url": "https://logicrw.github.io/awesome-jev-projects/en/categories/evaluation-observability",
     "title": "Evaluation & Observability (29)",
     "description": "Evaluation & Observability (29) — System One / Jev related resource.",
@@ -6480,6 +6810,16 @@
     ]
   },
   {
+    "url": "https://benchmarkheaven.com/jev-models/alternatives",
+    "title": "JevBench alternatives board",
+    "description": "Benchmark Heaven open-weight Jev-class comparison page (v1.4.2): licenses, ranks, hardware notes.",
+    "category": "Evals & papers",
+    "subsection": "Typed-decision benchmarks",
+    "sources": [
+      "seed-x-scan"
+    ]
+  },
+  {
     "url": "https://nearhere.events/blog/typesafe-jev-mistral-gemini-event-validation",
     "title": "Near Here event validation",
     "description": "The only three-way head-to-head found, with each model's prompt tuned separately and the scope limited to one task rather than a general ranking.",
@@ -6511,6 +6851,16 @@
       "MrJev/awesome-jev",
       "OmniJev/awesome-jev-gallery",
       "seed-official"
+    ]
+  },
+  {
+    "url": "https://arxiv.org/abs/2609.24052",
+    "title": "Calibrated Decisions at Scale",
+    "description": "Texas crash-narrative coding with Jev: 195k narratives, F1 0.908 vs humans, review budgets from calibrated probs.",
+    "category": "Evals & papers",
+    "subsection": "Papers",
+    "sources": [
+      "seed-x-scan"
     ]
   },
   {
@@ -6594,6 +6944,36 @@
     ]
   },
   {
+    "url": "https://arxiv.org/abs/2609.30216",
+    "title": "Jev in the Wild",
+    "description": "Data-driven analysis of 2,170 public Jev GitHub projects: domains, Choice/Noul/Score adoption, attention skew.",
+    "category": "Evals & papers",
+    "subsection": "Papers",
+    "sources": [
+      "seed-x-scan"
+    ]
+  },
+  {
+    "url": "https://arxiv.org/abs/2609.29769",
+    "title": "Jev vs. LLMs as Rubric Judges",
+    "description": "Rao & Callison-Burch: Jev matches flash-tier LLM judges on binary rubrics at 29–325× lower cost; correlated errors limit cascades.",
+    "category": "Evals & papers",
+    "subsection": "Papers",
+    "sources": [
+      "seed-x-scan"
+    ]
+  },
+  {
+    "url": "https://arxiv.org/abs/2609.26550",
+    "title": "JEV-as-a-Judge",
+    "description": "CMU study: decision-only judge within ~3 pp of SOTA LLM judges on preference/factuality at 0.36% fee; confidence cascades.",
+    "category": "Evals & papers",
+    "subsection": "Papers",
+    "sources": [
+      "seed-x-scan"
+    ]
+  },
+  {
     "url": "https://arxiv.org/abs/2501.10868",
     "title": "JSONSchemaBench",
     "description": ", \"A Rigorous Benchmark of Structured Outputs for Language Models\". 10k real schemas scored on validity, coverage and latency, the constrained-decoding route Jev's 0% type errors claim competes against. !",
@@ -6674,6 +7054,16 @@
     ]
   },
   {
+    "url": "https://arxiv.org/abs/2609.23959",
+    "title": "Open-Jev on CallScreenBench",
+    "description": "JevLite (Qwen3-4B LoRA label-token readout) for per-turn scam screening: AUROC .974, 64.5 ms, calibrated P(scam).",
+    "category": "Evals & papers",
+    "subsection": "Papers",
+    "sources": [
+      "seed-x-scan"
+    ]
+  },
+  {
     "url": "https://arxiv.org/abs/2307.09702",
     "title": "Outlines",
     "description": ", \"Efficient Guided Generation for Large Language Models\". The finite-state-machine guided decoding HN named as the incumbent way to get typed values, which Jev claims to replace. !",
@@ -6714,6 +7104,16 @@
     ]
   },
   {
+    "url": "https://arxiv.org/abs/2609.28940",
+    "title": "System One for Pentest Harnesses",
+    "description": "Jev/Laya as calibrated decision layers (adjudication, severity, agent prune, confirmation) in LLM pentest agents.",
+    "category": "Evals & papers",
+    "subsection": "Papers",
+    "sources": [
+      "seed-x-scan"
+    ]
+  },
+  {
     "url": "https://arxiv.org/abs/2010.06002",
     "title": "Thinking Fast and Slow in AI",
     "description": ". The AI charter for System 1 components that answer from experience without search, what System One Models productizes. ![AAAI 2021](https://img.shields.io/badge/AAAI_2021-4B5563?style=flat-square)…",
@@ -6721,6 +7121,16 @@
     "subsection": "Papers",
     "sources": [
       "OmniJev/awesome-jev-gallery"
+    ]
+  },
+  {
+    "url": "https://arxiv.org/abs/2609.26758",
+    "title": "Type-Safe Is Not Error-Free",
+    "description": "Option-name polarity study: typed models can flip definitions under yes/no names (AUC to 23.2% on Laya) while type-error stays 0%.",
+    "category": "Evals & papers",
+    "subsection": "Papers",
+    "sources": [
+      "seed-x-scan"
     ]
   },
   {
@@ -8231,6 +8641,16 @@
       "AbdelStark/awesome-typesafe-jev",
       "AppitStudio/awesome-jev",
       "BeatAPI/awesome-jev"
+    ]
+  },
+  {
+    "url": "https://github.com/aaddrick/building-with-typesafe-jev",
+    "title": "building-with-typesafe-jev",
+    "description": "Unofficial agent skill teaching typed decisions + calibrated confidence from 150+ community projects.",
+    "category": "SDKs & tooling",
+    "subsection": "MCP, skills & agent plugins",
+    "sources": [
+      "seed-x-scan"
     ]
   },
   {
