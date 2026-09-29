@@ -262,6 +262,16 @@
     ]
   },
   {
+    "url": "https://github.com/getainode/jebadiah",
+    "title": "Jebadiah",
+    "description": "Open System One decision model: trainer, data builders, evals, and run records; /v1/systemone via AINode.",
+    "category": "Open-source / local alternatives",
+    "subsection": "Landmark projects",
+    "sources": [
+      "seed-x-scan"
+    ]
+  },
+  {
     "url": "https://github.com/TianyuCodings/NanoJev",
     "title": "NanoJev",
     "description": "Studies independent Qwen-based typed decision heads, local serving, and game controllers with recorded comparisons. Project guide.",
@@ -700,16 +710,6 @@
     ]
   },
   {
-    "url": "https://github.com/getainode/jebadiah",
-    "title": "Jebadiah",
-    "description": "Open System One decision model: trainer, data builders, evals, and run records; /v1/systemone via AINode.",
-    "category": "Open-source / local alternatives",
-    "subsection": "Models & weights",
-    "sources": [
-      "seed-x-scan"
-    ]
-  },
-  {
     "url": "https://github.com/jbpayton/jevless",
     "title": "jevless",
     "description": "Jev-style Choice/Noul/Score from any logprobs API, plus a local /v1/systemone server.",
@@ -830,9 +830,39 @@
     ]
   },
   {
+    "url": "https://huggingface.co/frontier-infra/jebadiah-27b",
+    "title": "jebadiah-27b",
+    "description": "Jebadiah 27B open System One weights on Qwen3.8-27B; largest published Jebadiah checkpoint.",
+    "category": "Open-source / local alternatives",
+    "subsection": "Models & weights",
+    "sources": [
+      "seed-x-scan"
+    ]
+  },
+  {
     "url": "https://huggingface.co/frontier-infra/jebadiah-4b-v1",
     "title": "jebadiah-4b-v1",
     "description": "Open Jebadiah 4B decision weights (Apache-2.0) from frontier-infra.",
+    "category": "Open-source / local alternatives",
+    "subsection": "Models & weights",
+    "sources": [
+      "seed-x-scan"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/frontier-infra/jebadiah-4b-v2",
+    "title": "jebadiah-4b-v2",
+    "description": "Jebadiah 4B v2 open decision weights (Apache-2.0); smaller sibling of the v2 family.",
+    "category": "Open-source / local alternatives",
+    "subsection": "Models & weights",
+    "sources": [
+      "seed-x-scan"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/frontier-infra/jebadiah-9b-v2",
+    "title": "jebadiah-9b-v2",
+    "description": "Jebadiah 9B v2 open System One weights (Qwen3.5-9B chat base); default local /v1/systemone model.",
     "category": "Open-source / local alternatives",
     "subsection": "Models & weights",
     "sources": [
@@ -1041,6 +1071,16 @@
     ]
   },
   {
+    "url": "https://huggingface.co/togethercomputer/Tev1-0.8B-experimental",
+    "title": "Tev1-0.8B-experimental",
+    "description": "Together AI experimental 0.8B Jev-inspired decision SFT on Qwen3.5-0.8B (letter-option head).",
+    "category": "Open-source / local alternatives",
+    "subsection": "Models & weights",
+    "sources": [
+      "seed-x-scan"
+    ]
+  },
+  {
     "url": "https://github.com/taeold/djev-run",
     "title": "djev-run",
     "description": "Serves DiffusionGemma-Jev behind a compatible API on Cloud Run, with a small game demo on top.",
@@ -1188,9 +1228,39 @@
     ]
   },
   {
+    "url": "https://github.com/blockbrain-ai/cygnet-recipe",
+    "title": "cygnet-recipe",
+    "description": "Frozen Gemma-4-12B-it typed decisions via one-token option-letter readout on stock vLLM (JevBench package).",
+    "category": "Open-source / local alternatives",
+    "subsection": "Runtimes, ports & servers",
+    "sources": [
+      "seed-x-scan"
+    ]
+  },
+  {
     "url": "https://github.com/hayriyigit/JimmyJenk",
     "title": "JimmyJenk",
     "description": "Local harness for Jev-style System One decisions from any LLM logprobs; vLLM + llama.cpp backends.",
+    "category": "Open-source / local alternatives",
+    "subsection": "Runtimes, ports & servers",
+    "sources": [
+      "seed-x-scan"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/collections/frontier-infra/jebadiah-open-system-one-decision-models-6ab80765ddd3fa0b3eba5213",
+    "title": "Jebadiah collection",
+    "description": "HF collection of Jebadiah bf16, GGUF, and MLX System One decision models.",
+    "category": "Open-source / local alternatives",
+    "subsection": "Runtimes, ports & servers",
+    "sources": [
+      "seed-x-scan"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/frontier-infra/jebadiah-9b-v2-GGUF",
+    "title": "jebadiah-9b-v2-GGUF",
+    "description": "Official GGUF builds of Jebadiah 9B v2 for llama.cpp / LM Studio.",
     "category": "Open-source / local alternatives",
     "subsection": "Runtimes, ports & servers",
     "sources": [
@@ -6007,6 +6077,16 @@
     ]
   },
   {
+    "url": "https://langchain.com/blog/jev-agent-evals-langsmith",
+    "title": "Jev-as-a-Judge for agent evals",
+    "description": "LangChain study: Jev as LangSmith agent evaluator — low variance, cost, and latency vs LLM judges.",
+    "category": "Docs & essays",
+    "subsection": "",
+    "sources": [
+      "seed-x-scan"
+    ]
+  },
+  {
     "url": "https://x.com/Akhila_988/status/2102171891410825520",
     "title": "Jev-Omni launch thread",
     "description": "Announcement of Jev-Omni as a multimodal open System One model with HF weights.",
@@ -6847,6 +6927,16 @@
     ]
   },
   {
+    "url": "https://github.com/Jevals/jevals-data",
+    "title": "jevals-data",
+    "description": "Public Jevals suite boards and per-decision logs (CC-BY-4.0) for hosted Jev vs LLM comparisons.",
+    "category": "Evals & papers",
+    "subsection": "Typed-decision benchmarks",
+    "sources": [
+      "seed-x-scan"
+    ]
+  },
+  {
     "url": "https://github.com/omni-/ask-jev",
     "title": "ask-jev",
     "description": "A Windows PowerShell tool for auditing recorded Codex execution evidence with :jev.",
@@ -7124,6 +7214,16 @@
     "url": "https://huggingface.co/datasets/sumleo/RLCDAlignBench",
     "title": "RLCDAlignBench (dataset)",
     "description": "Cached Jev responses and detection instances for RLCDAlignBench.",
+    "category": "Evals & papers",
+    "subsection": "Typed-decision benchmarks",
+    "sources": [
+      "seed-x-scan"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/datasets/LocalLLaMA/typed-decisions",
+    "title": "typed-decisions",
+    "description": "Independent typed probabilistic decision benchmark (noul/choice/score) used by DecisionEval and open trainers.",
     "category": "Evals & papers",
     "subsection": "Typed-decision benchmarks",
     "sources": [

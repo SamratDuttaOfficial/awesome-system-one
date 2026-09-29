@@ -705,9 +705,21 @@ SEEDS = [
 ("https://jev-ai.pro/compare/jev-vs-openjev","Jev vs OpenJev compared","JevBench-based comparison of hosted Jev vs the many projects named OpenJev.","Docs & essays","seed-x-scan"),
 
 
+
+# Daily X scan 2026-09-29 — X browser scan in parallel; high-signal HF/GH/web gap-fills since 2026-09-28
+("https://huggingface.co/frontier-infra/jebadiah-9b-v2","jebadiah-9b-v2","Jebadiah 9B v2 open System One weights (Qwen3.5-9B chat base); default local /v1/systemone model.","Open models & alternatives","seed-x-scan"),
+("https://huggingface.co/frontier-infra/jebadiah-4b-v2","jebadiah-4b-v2","Jebadiah 4B v2 open decision weights (Apache-2.0); smaller sibling of the v2 family.","Open models & alternatives","seed-x-scan"),
+("https://huggingface.co/frontier-infra/jebadiah-27b","jebadiah-27b","Jebadiah 27B open System One weights on Qwen3.8-27B; largest published Jebadiah checkpoint.","Open models & alternatives","seed-x-scan"),
+("https://huggingface.co/frontier-infra/jebadiah-9b-v2-GGUF","jebadiah-9b-v2-GGUF","Official GGUF builds of Jebadiah 9B v2 for llama.cpp / LM Studio.","Open models & alternatives","seed-x-scan"),
+("https://huggingface.co/collections/frontier-infra/jebadiah-open-system-one-decision-models-6ab80765ddd3fa0b3eba5213","Jebadiah collection","HF collection of Jebadiah bf16, GGUF, and MLX System One decision models.","Open models & alternatives","seed-x-scan"),
+("https://huggingface.co/togethercomputer/Tev1-0.8B-experimental","Tev1-0.8B-experimental","Together AI experimental 0.8B Jev-inspired decision SFT on Qwen3.5-0.8B (letter-option head).","Open models & alternatives","seed-x-scan"),
+("https://huggingface.co/datasets/LocalLLaMA/typed-decisions","typed-decisions","Independent typed probabilistic decision benchmark (noul/choice/score) used by DecisionEval and open trainers.","Evals & papers","seed-x-scan"),
+("https://github.com/Jevals/jevals-data","jevals-data","Public Jevals suite boards and per-decision logs (CC-BY-4.0) for hosted Jev vs LLM comparisons.","Evals & papers","seed-x-scan"),
+("https://langchain.com/blog/jev-agent-evals-langsmith","Jev-as-a-Judge for agent evals","LangChain study: Jev as LangSmith agent evaluator — low variance, cost, and latency vs LLM judges.","Docs & essays","seed-x-scan"),
+("https://github.com/blockbrain-ai/cygnet-recipe","cygnet-recipe","Frozen Gemma-4-12B-it typed decisions via one-token option-letter readout on stock vLLM (JevBench package).","Open models & alternatives","seed-x-scan"),
 ]
 
-INGEST_DATE = "2026-09-28 PT"
+INGEST_DATE = "2026-09-29 PT"
 
 # Display order (newcomers: OS alternatives + use cases before the SDK dump).
 DISPLAY_ORDER = [CAT_HOSTED, CAT_OS, CAT_USE, CAT_DOCS, CAT_EVALS, CAT_SDKS, CAT_LISTS, CAT_COMMUNITY]
@@ -732,6 +744,7 @@ LANDMARK_OS = [
     "https://github.com/reticlehq/reticle",
     "https://github.com/ollaya-dev/ollaya",
     "https://github.com/Liuziyu77/Valen",
+    "https://github.com/getainode/jebadiah",
 ]
 PIN_EVALS = [
     "https://benchmarkheaven.com/jev-models",
@@ -909,6 +922,17 @@ CATEGORY_OVERRIDE = {
     "https://note.com/zephel01/n/ne9a2c037e513": CAT_DOCS,
     "https://bigaiagent.tech/jev-ai-model-system-one-ai-agents/": CAT_DOCS,
     "https://jev-ai.pro/compare/jev-vs-openjev": CAT_DOCS,
+
+    "https://huggingface.co/frontier-infra/jebadiah-9b-v2": CAT_OS,
+    "https://huggingface.co/frontier-infra/jebadiah-4b-v2": CAT_OS,
+    "https://huggingface.co/frontier-infra/jebadiah-27b": CAT_OS,
+    "https://huggingface.co/frontier-infra/jebadiah-9b-v2-GGUF": CAT_OS,
+    "https://huggingface.co/collections/frontier-infra/jebadiah-open-system-one-decision-models-6ab80765ddd3fa0b3eba5213": CAT_OS,
+    "https://huggingface.co/togethercomputer/Tev1-0.8B-experimental": CAT_OS,
+    "https://huggingface.co/datasets/LocalLLaMA/typed-decisions": CAT_EVALS,
+    "https://github.com/Jevals/jevals-data": CAT_EVALS,
+    "https://langchain.com/blog/jev-agent-evals-langsmith": CAT_DOCS,
+    "https://github.com/blockbrain-ai/cygnet-recipe": CAT_OS,
 
 
 }
