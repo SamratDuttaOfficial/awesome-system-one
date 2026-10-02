@@ -619,6 +619,10 @@
     "stars": 0,
     "fetched_at": "2026-09-24T07:23:00Z"
   },
+  "BudEcosystem/Bud-Decision-Engine": {
+    "stars": 5,
+    "fetched_at": "2026-10-02T09:38:40Z"
+  },
   "bugkiwi/elons-job": {
     "stars": 13,
     "fetched_at": "2026-09-24T07:23:00Z"
@@ -706,6 +710,10 @@
   "Chandler-Sun/chat2jev": {
     "stars": 2,
     "fetched_at": "2026-09-24T07:23:00Z"
+  },
+  "CharlesFeng0314/JEV_sees": {
+    "stars": 108,
+    "fetched_at": "2026-10-02T09:38:40Z"
   },
   "Charlyhno-eng/jev-codex-pilot": {
     "stars": 3,
@@ -867,6 +875,10 @@
     "stars": 0,
     "fetched_at": "2026-09-24T07:23:00Z"
   },
+  "CYMCharming/S1Q": {
+    "stars": 0,
+    "fetched_at": "2026-10-02T09:38:40Z"
+  },
   "d-date/swift-jev": {
     "stars": 11,
     "fetched_at": "2026-09-24T07:23:00Z"
@@ -986,6 +998,10 @@
   "devbackend/jevgo": {
     "stars": 7,
     "fetched_at": "2026-09-24T07:23:00Z"
+  },
+  "developmentseed/stac-zap": {
+    "stars": 6,
+    "fetched_at": "2026-10-02T09:38:40Z"
   },
   "Devin-AXIS/jev-dsh-decision": {
     "stars": 160,
@@ -1471,6 +1487,10 @@
     "stars": 1,
     "fetched_at": "2026-09-24T07:23:00Z"
   },
+  "gulbaki/jev-llm-guard": {
+    "stars": 10,
+    "fetched_at": "2026-10-02T09:38:40Z"
+  },
   "h0j5bz0adh0-stack/jev-pilot": {
     "stars": 3,
     "fetched_at": "2026-09-24T07:23:00Z"
@@ -1619,9 +1639,17 @@
     "stars": 3,
     "fetched_at": "2026-09-24T07:23:00Z"
   },
+  "hotchpotch/bekko-system-one": {
+    "stars": 29,
+    "fetched_at": "2026-10-02T09:38:40Z"
+  },
   "hotchpotch/jev-reranker": {
     "stars": 20,
     "fetched_at": "2026-09-24T07:23:00Z"
+  },
+  "hotchpotch/S1MB": {
+    "stars": 1,
+    "fetched_at": "2026-10-02T09:38:40Z"
   },
   "hqman/JevScout": {
     "stars": 34,
@@ -1862,6 +1890,10 @@
   "Jevals/jevals-data": {
     "stars": 2,
     "fetched_at": "2026-09-29T15:48:00Z"
+  },
+  "JevBench/jevbench": {
+    "stars": 2,
+    "fetched_at": "2026-10-02T09:38:40Z"
   },
   "jevbook/jevscan": {
     "stars": 3,
@@ -2191,6 +2223,10 @@
     "stars": 5,
     "fetched_at": "2026-09-24T15:47:17Z"
   },
+  "kouhxp/gutsy": {
+    "stars": 15,
+    "fetched_at": "2026-10-02T09:38:40Z"
+  },
   "krzyzanowskim/TypeSafe": {
     "stars": 27,
     "fetched_at": "2026-09-24T07:23:00Z"
@@ -2346,6 +2382,10 @@
   "ldbumble/taskuary": {
     "stars": 120,
     "fetched_at": "2026-09-24T07:23:00Z"
+  },
+  "Leanmcp/jevbench": {
+    "stars": 0,
+    "fetched_at": "2026-10-02T09:38:40Z"
   },
   "LeddoEngano/jev-eyes": {
     "stars": 1,
@@ -2554,6 +2594,10 @@
   "mejiasd3v/pi-jev-router": {
     "stars": 13,
     "fetched_at": "2026-09-24T07:23:00Z"
+  },
+  "mertkayacs/jevalt": {
+    "stars": 4,
+    "fetched_at": "2026-10-02T09:38:40Z"
   },
   "metalbear-co/jev-auto-approve": {
     "stars": 8,
@@ -3691,6 +3735,14 @@
     "stars": 4,
     "fetched_at": "2026-09-24T07:23:00Z"
   },
+  "statico/jev-nethack": {
+    "stars": 2,
+    "fetched_at": "2026-10-02T09:38:40Z"
+  },
+  "stefanwebb/meta-awesome-jev": {
+    "stars": 5,
+    "fetched_at": "2026-10-02T09:38:40Z"
+  },
   "steven-shoemaker/hunch": {
     "stars": 1,
     "fetched_at": "2026-09-24T07:23:00Z"
@@ -4107,6 +4159,10 @@
     "stars": 1,
     "fetched_at": "2026-09-24T07:23:00Z"
   },
+  "VectifyAI/jev-doc-search": {
+    "stars": 4,
+    "fetched_at": "2026-10-02T09:38:40Z"
+  },
   "vectorize-io/hindsight": {
     "stars": 26761,
     "fetched_at": "2026-09-24T07:23:00Z"
@@ -4338,6 +4394,10 @@
   "xianggelila177/VideoAdGuard-Jev": {
     "stars": 2,
     "fetched_at": "2026-09-24T07:23:00Z"
+  },
+  "Xiaooolong/vev": {
+    "stars": 10,
+    "fetched_at": "2026-10-02T09:38:40Z"
   },
   "XieChengYuan/jev-gomoku": {
     "stars": 3,
