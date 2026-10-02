@@ -900,6 +900,16 @@
     ]
   },
   {
+    "url": "https://huggingface.co/Cloudflare/clef",
+    "title": "Clef (Cloudflare)",
+    "description": "27B multimodal open model that maps text, JSON, images, or video state plus typed questions to probabilities in one pass; Jev/System One-compatible; Apache-2.0.",
+    "category": "Open-source / local alternatives",
+    "subsection": "Models & weights",
+    "sources": [
+      "seed-tier"
+    ]
+  },
+  {
     "url": "https://codiv.ai",
     "title": "Codiv",
     "description": "Hosted inference for open System One models; serves OpenJev through a Jev-compatible API.",

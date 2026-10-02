@@ -1,8 +1,8 @@
-unique_links	1503
+unique_links	1504
 
 by_category
 Hosted: TypeSafe Jev	3
-Open-source / local alternatives	172
+Open-source / local alternatives	173
 Use cases	392
 Docs & essays	89
 Evals & papers	129
@@ -13,7 +13,7 @@ Community	5
 by_subsection
 Hosted: TypeSafe Jev / (none)	3
 Open-source / local alternatives / Landmark projects	26
-Open-source / local alternatives / Models & weights	89
+Open-source / local alternatives / Models & weights	90
 Open-source / local alternatives / Runtimes, ports & servers	21
 Open-source / local alternatives / Adapters & logit readers	20
 Open-source / local alternatives / Related classifiers & structured output	16
@@ -53,7 +53,7 @@ seed-logicrw-refresh	174
 seed-x-scan	174
 kydlikebtc/awesome-jev	135
 OmniJev/awesome-jev-gallery	132
-seed-tier	62
+seed-tier	63
 systemonemodels.org/examples/alternatives	34
 rupeshpoojary9/awesome-open-system-one	26
 seed-official	25

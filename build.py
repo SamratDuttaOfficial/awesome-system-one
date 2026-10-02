@@ -739,6 +739,7 @@ SEEDS = [
 ('https://huggingface.co/internlm/Intern-Decision-4B', 'Intern-Decision-4B', 'InternLM 4B open System One base (Qwen3.5-4B); backbone for JevAlt and others.', 'Open models & alternatives', 'seed-x-scan'),
 ('https://huggingface.co/autotrust/JEV-27B', 'JEV-27B (AutoTrust)', 'Apache-2.0 Qwen3.8-27B decision model serving System 1 typed probs + System 2 generation from one weights set.', 'Open models & alternatives', 'seed-x-scan'),
 ('https://huggingface.co/autotrust/JEV-27B-VL', 'JEV-27B-VL', 'Multimodal AutoTrust JEV-27B (vision + typed decisions); high-download open checkpoint.', 'Open models & alternatives', 'seed-x-scan'),
+('https://huggingface.co/Cloudflare/clef', 'Clef (Cloudflare)', '27B multimodal open model that maps text, JSON, images, or video state plus typed questions to probabilities in one pass; Jev/System One-compatible; Apache-2.0.', 'Open models & alternatives', 'seed-tier'),
 ('https://huggingface.co/autotrust/JEV-9B', 'JEV-9B (AutoTrust)', 'Smaller AutoTrust open integrated System 1/2 decision model.', 'Open models & alternatives', 'seed-x-scan'),
 ('https://huggingface.co/Maincode/matilda-jev-v1', 'MATILDA-jev v1', 'Maincode 26B one-pass Choice/Noul/Score decision model with optional images; Decision Index card.', 'Open models & alternatives', 'seed-x-scan'),
 ('https://huggingface.co/ZefanCai/Open-Jev-27B-v1.1', 'Open-Jev-27B-v1.1', 'ZefanCai LoRA + decision head on Qwen3.8-27B; strong S1MB Task Avg among open models.', 'Open models & alternatives', 'seed-x-scan'),
