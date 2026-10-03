@@ -770,9 +770,39 @@ SEEDS = [
 ('https://github.com/developmentseed/stac-zap', 'stac-zap', 'Zap mode for stac-map: one prompt searches STAC catalogs via Jev typed decisions.', 'Use cases', 'seed-x-scan'),
 ('https://github.com/VectifyAI/jev-doc-search', 'jev-doc-search', 'Long-document search with Jev + PageIndex.', 'Use cases', 'seed-x-scan'),
 ('https://github.com/CYMCharming/S1Q', 'S1Q', 'Low-bit quantization toolkit for Jev-like System One models (Kev, NanoJev, Laya) with paired evals.', 'SDKs & tooling', 'seed-x-scan'),
+
+# Daily X scan 2026-10-03 — Avi pg-jev / Build-your-own-Jev gap-fills + high-signal GH/HF/arxiv/web since ~2026-09-29
+("https://x.com/_avichawla/status/2106328920211800165","Avi Chawla: pg-jev","Avi Chawla post introducing pg-jev — Postgres extension with jev()/jev_prob()/jev_choice()/jev_score() for plain-language SQL predicates.","Docs & essays","seed-x-scan"),
+("https://x.com/_avichawla/status/2101563610644496464","Build your own Jev (100% local)","Avi Chawla X article: turn an open LLM into a local decision engine via SGLang /v1/score next-token scoring (no retraining).","Docs & essays","seed-x-scan"),
+("https://x.com/i/article/2101408350391136256","Build your own Jev (X article)","Native X Articles URL for Avi Chawla's Build your own Jev (100% local) long-form.","Docs & essays","seed-x-scan"),
+("https://blog.dailydoseofds.com/p/build-your-own-jev-100-local","Build your own Jev (100% local) — essay","Avi Chawla Substack write-up of local Jev-style scoring with SGLang, Qwen/DeepSeek, and latency vs generation.","Docs & essays","seed-x-scan"),
+("https://blog.dailydoseofds.com/p/jev-clearly-explained","Jev, Clearly Explained","Avi Chawla explainer of TypeSafe Jev System One primitives, RLCD calibration, and when typed decisions beat chat.","Docs & essays","seed-x-scan"),
+("https://pgjev.com","pgjev.com","Docs and quickstart for the pg-jev PostgreSQL extension (plain-language row predicates via TypeSafe Jev).","Docs & essays","seed-x-scan"),
+("https://github.com/PostHog/jeeves","Jeeves (PostHog)","PostHog 9B reasoning decision model (Qwen3.5 + LoRA + pointer head): thinks before Choice/Noul/Score; Jev-compatible /v1/systemone; Apache-2.0.","Open models & alternatives","seed-x-scan"),
+("https://huggingface.co/PostHog/jeeves","Jeeves (weights)","HF weights for PostHog Jeeves 9B (fused LoRA, pointer head, temperature, diffusion drafters).","Open models & alternatives","seed-x-scan"),
+("https://github.com/strands-labs/strands-decider","strands-decider","Amazon Strands Labs open 2B System One decision model (Qwen3.5-2B + LoRA + pointer head); training data/scripts + Jev-compatible server.","Open models & alternatives","seed-x-scan"),
+("https://huggingface.co/StrandsAgents/strands-decider-2B-hobson-v19","strands-decider-2B-hobson-v19","HF Hobson v19 weights for Strands Decider 2B typed decisions.","Open models & alternatives","seed-x-scan"),
+("https://strandsagents.com/blog/introducing-strands-decider","Introducing Strands Decider 2B","Official Strands Labs launch post: architecture, JevBench numbers, local latency, and agent intervention examples.","Docs & essays","seed-x-scan"),
+("https://techcrunch.com/2026/10/01/amazon-releases-its-own-jev-clone-as-decision-models-flood-the-web","Amazon Strands Decider (TechCrunch)","TechCrunch coverage of Amazon's open Strands Decider 2B amid the wave of Jev-style decision models.","Docs & essays","seed-x-scan"),
+("https://github.com/QiqianFu/Qev","Qev","Open Jev-like decision models fine-tuned from Qwen (2B/4B/9B) with Choice/Noul/Score training and eval code; Apache-2.0.","Open models & alternatives","seed-x-scan"),
+("https://huggingface.co/AustinFu/Qev-4B","Qev-4B","Mid-size Qev decision weights on Qwen (Choice/Noul/Score).","Open models & alternatives","seed-x-scan"),
+("https://huggingface.co/AustinFu/Qev-2B","Qev-2B","Compact Qev decision weights with response distillation.","Open models & alternatives","seed-x-scan"),
+("https://huggingface.co/AustinFu/Qev-9B","Qev-9B","Largest published Qev decision checkpoint.","Open models & alternatives","seed-x-scan"),
+("https://github.com/benmagnifico/DriveJev","DriveJev","Open System One decision model for autonomous driving; closed-loop JevPilot harness and live demo.","Open models & alternatives","seed-x-scan"),
+("https://huggingface.co/benmagnifico/DriveJev-4B","DriveJev-4B","DriveJev 1.0 4B vision decision weights for driving behaviours.","Open models & alternatives","seed-x-scan"),
+("https://github.com/ZimmyGao/openjev-rlcd","openjev-rlcd","Working open RLCD implementation for reasoning models (calibrate-then-reinforce) with API-compatible server.","Open models & alternatives","seed-x-scan"),
+("https://arxiv.org/abs/2609.38850","OpenJev-RLCD","Working RLCD recipe for reasoning models: proper-score readout then reinforce; selective-prediction gains vs GRPO/SFT.","Evals & papers","seed-x-scan"),
+("https://arxiv.org/abs/2610.01834","Code Owns the Simulation, Jev Owns the Evaluation","Boundary study: Jev excels at evaluation but fails when one call must also simulate; code lookahead restores control.","Evals & papers","seed-x-scan"),
+("https://arxiv.org/abs/2610.02076","LLM2Jev","When and how to fine-tune LLMs into Jev-style decision models (pairs with Yinsongxu/LLM2Jev).","Evals & papers","seed-x-scan"),
+("https://arxiv.org/abs/2609.32160","Typed Decision Models: Early Evidence Audit","Evidence audit and evaluation checklist for typed decision / System One models.","Evals & papers","seed-x-scan"),
+("https://arxiv.org/abs/2609.37647","Evaluating and Benchmarking the System One Model Jev","Independent benchmark evaluation of TypeSafe Jev as a System One model.","Evals & papers","seed-x-scan"),
+("https://arxiv.org/abs/2610.01231","Judgement in the Age of Jev","From evaluation scarcity to evaluation abundance with System One judgment models.","Evals & papers","seed-x-scan"),
+("https://arxiv.org/abs/2609.36965","Chinese-Jev","Bringing System One decision models to Chinese-language tasks.","Evals & papers","seed-x-scan"),
+("https://arxiv.org/abs/2610.00381","OmniMed-Jev","Calibrating LVLM confidence for trustworthy medical multimodal decisions via System One.","Evals & papers","seed-x-scan"),
+("https://github.com/cmpnd-ai/dspy-system-one-agent-patterns","dspy-system-one-agent-patterns","Six-file coding-agent tutorial: DSPy RLM + TypeSafe Jev for permission gates, tool pick, history, and delegation.","Use cases","seed-x-scan"),
 ]
 
-INGEST_DATE = "2026-10-02 PT"
+INGEST_DATE = "2026-10-03 PT"
 
 # Display order (newcomers: OS alternatives + use cases before the SDK dump).
 DISPLAY_ORDER = [CAT_HOSTED, CAT_OS, CAT_USE, CAT_DOCS, CAT_EVALS, CAT_SDKS, CAT_LISTS, CAT_COMMUNITY]
@@ -804,6 +834,10 @@ LANDMARK_OS = [
     "https://huggingface.co/autotrust/JEV-27B-VL",
     "https://huggingface.co/Maincode/matilda-jev-v1",
     "https://huggingface.co/internlm/Intern-Decision-4B",
+    "https://github.com/PostHog/jeeves",
+    "https://github.com/strands-labs/strands-decider",
+    "https://github.com/QiqianFu/Qev",
+    "https://github.com/benmagnifico/DriveJev",
 ]
 PIN_EVALS = [
     "https://benchmarkheaven.com/jev-models",
@@ -1042,6 +1076,34 @@ CATEGORY_OVERRIDE = {
     "https://github.com/developmentseed/stac-zap": CAT_USE,
     "https://github.com/VectifyAI/jev-doc-search": CAT_USE,
     "https://github.com/CYMCharming/S1Q": CAT_SDKS,
+    "https://x.com/_avichawla/status/2106328920211800165": CAT_DOCS,
+    "https://x.com/_avichawla/status/2101563610644496464": CAT_DOCS,
+    "https://x.com/i/article/2101408350391136256": CAT_DOCS,
+    "https://blog.dailydoseofds.com/p/build-your-own-jev-100-local": CAT_DOCS,
+    "https://blog.dailydoseofds.com/p/jev-clearly-explained": CAT_DOCS,
+    "https://pgjev.com": CAT_DOCS,
+    "https://github.com/PostHog/jeeves": CAT_OS,
+    "https://huggingface.co/PostHog/jeeves": CAT_OS,
+    "https://github.com/strands-labs/strands-decider": CAT_OS,
+    "https://huggingface.co/StrandsAgents/strands-decider-2B-hobson-v19": CAT_OS,
+    "https://strandsagents.com/blog/introducing-strands-decider": CAT_DOCS,
+    "https://techcrunch.com/2026/10/01/amazon-releases-its-own-jev-clone-as-decision-models-flood-the-web": CAT_DOCS,
+    "https://github.com/QiqianFu/Qev": CAT_OS,
+    "https://huggingface.co/AustinFu/Qev-4B": CAT_OS,
+    "https://huggingface.co/AustinFu/Qev-2B": CAT_OS,
+    "https://huggingface.co/AustinFu/Qev-9B": CAT_OS,
+    "https://github.com/benmagnifico/DriveJev": CAT_OS,
+    "https://huggingface.co/benmagnifico/DriveJev-4B": CAT_OS,
+    "https://github.com/ZimmyGao/openjev-rlcd": CAT_OS,
+    "https://arxiv.org/abs/2609.38850": CAT_EVALS,
+    "https://arxiv.org/abs/2610.01834": CAT_EVALS,
+    "https://arxiv.org/abs/2610.02076": CAT_EVALS,
+    "https://arxiv.org/abs/2609.32160": CAT_EVALS,
+    "https://arxiv.org/abs/2609.37647": CAT_EVALS,
+    "https://arxiv.org/abs/2610.01231": CAT_EVALS,
+    "https://arxiv.org/abs/2609.36965": CAT_EVALS,
+    "https://arxiv.org/abs/2610.00381": CAT_EVALS,
+    "https://github.com/cmpnd-ai/dspy-system-one-agent-patterns": CAT_USE,
 
 }
 
